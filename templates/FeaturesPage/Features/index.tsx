@@ -79,11 +79,11 @@ const Features = ({}: FeaturesProps) => {
                                                     {item.title}
                                                 </h6>
                                             </div>
-                                            {item.text && (
+                                            
                                                 <p className="body-2 mt-3 text-n-4">
                                                     {item.text}
                                                 </p>
-                                            )}
+                                            
                                         </li>
                                     ))}
                                 </ul>
