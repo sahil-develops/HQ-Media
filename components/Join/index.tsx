@@ -23,8 +23,7 @@ HQ Media
                         </span>
                     </h1>
                     <p className="body-1 mb-8 text-n-4">
-                        Unleash the power of AI within HQ Media. Upgrade your
-                        productivity with HQ Media's, the open AI chat app.
+                        Unleash the power of AI within HQ Media.
                     </p>
                     <Button href="/pricing" white>
                         Get started
