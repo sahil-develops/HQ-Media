@@ -66,8 +66,8 @@ const PricingList = ({ monthly = true }: PricingListProps) => {
                             <Button
                                 className="w-full mb-6"
                                 href={
-                                   "mailto:contact@hqmediaagency.com"}
-                                
+                                   "https://calendly.com/hqmediaagency/call-30m"}
+                
                             >
                                Get Started
                             </Button>

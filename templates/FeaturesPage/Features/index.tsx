@@ -4,20 +4,16 @@ import Image from "@/components/Image";
 type FeaturesProps = {};
 
 const Features = ({}: FeaturesProps) => {
-    const content = [
-        {
-            id: "0",
-            title: "Faster 24/7 Customer Service and Personalized Experiences",
-         
-        },
-        {
-            id: "1",
-            title: "Efficiency Improvement and Cost Reduction",
-        },
-        {
-            id: "2",
-            title: "Enhanced Customer Experience and Data Collection",
-        },
+    const sectionSubtitles = [
+        [
+            "Enhanced Customer Engagement", "Efficient 24/7 Support", 'Personalized User Experiences',
+        ],
+        [
+            "Powering Progress Through AI Automation", "Unleashing Potential with AI Automation", "Elevate Your Operations with AI Automation"
+        ],
+        [
+            "Our Consulting Guides Your Path to Success", "Partnering for Effective AI-Driven Consultation", "Elevate Your Business with Expert AI Consulting"
+        ],
     ];
 
     return (
@@ -25,9 +21,9 @@ const Features = ({}: FeaturesProps) => {
             <div className="container">
                 <div className="-mb-16">
                     {[
-                        { id: "0", imageUrl: "/images/features/bot-3.png" },
+                        { id: "0", imageUrl: "/images/features/bot-2.png" },
                         { id: "1", imageUrl: "/images/features/bot-4.png" },
-                        { id: "2", imageUrl: "/images/features/image-1.jpg" },
+                        { id: "2", imageUrl: "/images/features/bot-5.png" },
                     ].map((item, index) => (
                         <div
                             className="mb-16 md:grid md:grid-cols-2 md:items-center lg:gap-20 xl:gap-40"
@@ -61,30 +57,20 @@ const Features = ({}: FeaturesProps) => {
                                     index % 2 === 0 ? "md:pl-16" : "md:pr-16"
                                 }
                             >
-
-                                <ul className="">
-                                    {content.map((item) => (
-                                        <li
-                                            className="py-4 border-b border-n-1/5 md:py-6"
-                                            key={item.id}
-                                        >
-                                            <div className="flex items-center">
-                                                <Image
-                                                    src="/images/check.svg"
-                                                    width={24}
-                                                    height={24}
-                                                    alt="Check"
-                                                />
-                                                <h6 className="body-2 ml-5">
-                                                    {item.title}
-                                                </h6>
-                                            </div>
-                                            
-                                                <p className="body-2 mt-3 text-n-4">
-                                                    {item.text}
-                                                </p>
-                                            
-                                        </li>
+                                <h2 className="h2 mb-4 md:mb-8">
+                                    {item.id == 0 ? "AI Chatbot" : item.id == 1 ? "AI Automation" : "AI Consulting"}
+                                </h2>
+                                <ul className="flex flex-col gap-12 text-xl">
+                                    {sectionSubtitles[index].map((subtitle, subtitleIndex) => (
+                               <div className="flex gap-5">
+                                <Image
+                                src="/images/check.svg"
+                                width={24}
+                                height={24}
+                                alt="Check"
+                            />
+                                   <li key={subtitleIndex}>{subtitle}</li>
+                               </div>
                                     ))}
                                 </ul>
                             </div>

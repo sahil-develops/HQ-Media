@@ -37,17 +37,17 @@ export const comparison = [
     {
         id: "7",
         title: "Custom AI chatbot",
-        pricing: [false, true, true],
+        pricing: [true, true, true],
     },
     {
         id: "8",
         title: "Customized training",
-        pricing: [false, true, true],
+        pricing: [true, true, true],
     },
     {
         id: "9",
         title: "Customized analytics",
-        pricing: [false, true, true],
+        pricing: [true, true, true],
     },
     {
         id: "10",
@@ -64,13 +64,13 @@ export const comparison = [
     {
         id: "12",
         title: "Dedicated server",
-        pricing: [false, false, true],
+        pricing: [true, true, true],
         enterprise: true,
     },
     {
         id: "13",
         title: "Integration with CRM and Analytics Tools",
-        pricing: [false, false, true],
+        pricing: [true, true, true],
         enterprise: true,
     },
     {

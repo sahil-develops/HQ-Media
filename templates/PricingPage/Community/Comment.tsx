@@ -13,13 +13,7 @@ const Comment = ({ comment }: CommentProps) => (
                 <div className="caption text-n-1/25">{comment.role}</div>
             </div>
             <div className="ml-auto">
-                <Image
-                    className="w-full rounded-full"
-                    src={comment.avatarUrl}
-                    width={60}
-                    height={60}
-                    alt={comment.name}
-                />
+              
             </div>
         </div>
     </div>
