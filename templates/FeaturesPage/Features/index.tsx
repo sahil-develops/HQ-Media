@@ -57,9 +57,9 @@ const Features = ({}: FeaturesProps) => {
                                     index % 2 === 0 ? "md:pl-16" : "md:pr-16"
                                 }
                             >
-                                <h2 className="h2 mb-4 md:mb-8">
-                                    {item.id == 0 ? "AI Chatbot" : item.id == 1 ? "AI Automation" : "AI Consulting"}
-                                </h2>
+                            <h2 className="h2 mb-4 md:mb-8">
+                                {item.id === 0 ? "AI Chatbot" : item.id === 1 ? "AI Automation" : "AI Consulting"}
+                            </h2>
                                 <ul className="flex flex-col gap-12 text-xl">
                                     {sectionSubtitles[index].map((subtitle, subtitleIndex) => (
                                <div className="flex gap-5">
