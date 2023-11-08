@@ -66,6 +66,7 @@ const Features = ({}: FeaturesProps) => {
                                             className="absolute left-4 right-4 bottom-4 bg-n-8/95 md:left-8 md:right-8 md:bottom-8"
                                             title={item.notification}
                                         /> */}
+                                        
                                         <div className="absolute top-6 right-6 flex items-center justify-center w-15 h-15 bg-n-1 rounded-full xl:top-8 xl:right-8">
                                             <Image
                                                 src={item.iconUrl}
