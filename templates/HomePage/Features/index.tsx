@@ -40,7 +40,11 @@ const Features = ({}: FeaturesProps) => {
                                         <p className="body-2 mb-10 text-n-3">
                                             {item.text}
                                         </p>
-                                        <Button>See how it work</Button>
+                                        <Button>
+                                            <a href="https://calendly.com/hqmediaagency/call-30m" target="_blank">
+                                            See how it work
+                                            </a>
+                                            </Button>
                                     </div>
                                     <Arrows
                                         className="my-10 lg:hidden"

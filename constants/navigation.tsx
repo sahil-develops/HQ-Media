@@ -1,19 +1,19 @@
 export const navigation = [
-    {
-        id: "0",
-        title: "Features",
-        url: "/features",
-    },
-    {
-        id: "1",
-        title: "Pricing",
-        url: "/pricing",
-    },
-    {
-        id: "2",
-        title: "Roadmap",
-        url: "/roadmap",
-    },
+    // {
+    //     id: "0",
+    //     title: "Features",
+    //     url: "/features",
+    // },
+    // {
+    //     id: "1",
+    //     title: "Pricing",
+    //     url: "/pricing",
+    // },
+    // {
+    //     id: "2",
+    //     title: "Roadmap",
+    //     url: "/roadmap",
+    // },
     // {
     //     id: "2",
     //     title: "How to use",

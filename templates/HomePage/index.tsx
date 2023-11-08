@@ -11,6 +11,8 @@ import Testimonials from "./Testimonials";
 import Roadmap from "./Roadmap";
 import Services from "@/components/Services";
 import Join from "@/components/Join";
+import Faq from "../PricingPage/Faq";
+import CalendlyWidget from "./Widget/CalendlyWidget";
 
 const HomePage = () => {
     return (
@@ -18,12 +20,14 @@ const HomePage = () => {
             <Hero />
             <Benefits />
             <Features />
-            <Collaboration />
-      {/*  <HowItWorks /> SIgn up */}     
-            <Services />
+            {/* <Collaboration /> */}
+      {/*  <HowItWorks /> Sign up */}     
+            {/* <Services /> */}
             <Pricing />
             <Testimonials />
-            <Roadmap />
+            {/* <Roadmap /> */}
+            <Faq />
+        
             <Join />
         </Layout>
     );

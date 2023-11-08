@@ -55,7 +55,16 @@ const PricingList = ({ monthly = true }: PricingListProps) => {
                                     index === 0 ? "text-color-2" : ""
                                 } ${index === 1 ? "text-color-1" : ""} ${
                                     index === 2 ? "text-color-3" : ""
-                                }`}
+                                }  ${
+                                    index === 3 ? "text-color-1" : ""
+                                } ${
+                                    index === 4 ? "text-color-2" : ""
+                                }
+                                ${
+                                    index === 4 ? "text-color-3" : ""
+                                }
+                                
+                                `}
                             >
                                 {item.title}
                             </h4>

@@ -10,7 +10,7 @@ const Join = ({}: JoinProps) => (
             <div className="relative max-w-[43.125rem] mx-auto py-8 md:py-14 xl:py-0">
                 <div className="relative z-1 text-center">
                     <h1 className="h1 mb-6">
-                        Be part of the future of{" "}
+                    Innovate with Marketing and Web Solutions {" "}
                         <span className="inline-block relative">
 HQ Media
                             <Image
@@ -25,8 +25,10 @@ HQ Media
                     <p className="body-1 mb-8 text-n-4">
                         Unleash the power of AI within HQ Media.
                     </p>
-                    <Button href="/pricing" white>
-                        Get started
+                    <Button   white>
+                     <a  href="https://calendly.com/hqmediaagency/call-30m" target="_blank">
+                           Get started
+                        </a>
                     </Button>
                 </div>
                 <div className="absolute top-1/2 left-1/2 w-[46.5rem] h-[46.5rem] border border-n-2/5 rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none">

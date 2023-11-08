@@ -13,7 +13,7 @@ const FeaturesPage = () => {
         <Layout>
             <Hero />
             <Benefits />
-            <Features />
+            {/* <Features /> */}
             <Community />
             <Services containerClassName="md:pb-10" />
             <Join />

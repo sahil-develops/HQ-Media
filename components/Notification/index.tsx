@@ -3,9 +3,10 @@ import Image from "../Image";
 type NotificationProps = {
     className?: string;
     title: string;
+    image:string;
 };
 
-const Notification = ({ className, title }: NotificationProps) => (
+const Notification = ({ className, title,image }: NotificationProps) => (
     <div
         className={`flex items-center p-4 pr-6 bg-[#474060]/40 backdrop-blur border border-n-1/10 rounded-2xl ${
             className || ""
@@ -14,7 +15,7 @@ const Notification = ({ className, title }: NotificationProps) => (
         <div className="mr-5">
             <Image
                 className="w-full rounded-xl"
-                src="/images/notification/image-1.png"
+                src={image}
                 width={52}
                 height={52}
                 alt="Image"
@@ -45,7 +46,7 @@ const Notification = ({ className, title }: NotificationProps) => (
                         </li>
                     ))}
                 </ul>
-                <div className="body-2 text-[#6C7275]">1m ago</div>
+                {/* <div className="body-2 text-[#6C7275]">1m ago</div> */}
             </div>
         </div>
     </div>

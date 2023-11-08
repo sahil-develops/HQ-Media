@@ -15,7 +15,7 @@ const Pricing = ({}: PricingProps) => {
                 <Heading
                     textAlignClassName="text-center"
                     titleLarge="Pay once, use forever"
-                    textLarge="Get started with HQ Media - AI chat app today and experience the power of AI in your conversations!"
+                    textLarge="Empower your digital journey with HQ Media Agency. Discover the possibilities across Marketing, App Dev, and Web Dev today!"
                 />
                 {/* Button for monthly and annually
                 <div className="w-[19rem] mx-auto mb-10 p-0.25 bg-gradient-to-b from-[#D77DEE]/90 to-n-1/15 rounded-xl">

@@ -18,7 +18,7 @@ const Pricing = ({}: PricingProps) => {
                         height={255}
                         alt="Sphere"
                     />
-                    <div className="absolute top-1/2 left-1/2 w-[59.5rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+                    <div className="absolute top-1/2 left-1/2 w-[59.5rem]  -translate-x-1/2 -translate-y-1/2 pointer-events-none">
                         <Image
                             className="w-full"
                             src="/images/pricing/stars.svg"

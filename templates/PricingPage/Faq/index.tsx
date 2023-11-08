@@ -3,6 +3,7 @@ import Section from "@/components/Section";
 import Heading from "@/components/Heading";
 
 import { faq } from "@/mocks/faq";
+import CalendlyWidget from "@/templates/HomePage/Widget/CalendlyWidget";
 
 type FaqProps = {};
 
@@ -71,6 +72,10 @@ const Faq = ({}: FaqProps) => {
                         </div>
                     ))}
                 </div>
+            </div>
+            <div className="flex flex-col  justify-center py-20 items-center w-full z-5">
+                
+            <CalendlyWidget />
             </div>
         </Section>
     );

@@ -43,8 +43,10 @@ const Header = ({}: HeaderProps) => {
             } border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm`}
         >
             <div className="flex justify-center items-center h-[4.75rem] px-5 lg:h-[5.25rem] lg:px-7.5 xl:px-10">
-                <Logo className="xl:mr-8 py-2" />
-                <nav
+                <Logo className="xl:mr-8 py-5" />
+               
+               {/* Navlinks */}
+                {/* <nav
                     className={`${
                         openNavigation ? "flex" : "hidden"
                     } fixed top-[4.8125rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
@@ -52,7 +54,7 @@ const Header = ({}: HeaderProps) => {
                     <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
                         {navigation.map((item) => (
                             <Link
-                                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1  px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
+                                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1  px-6 py-6 md:py-8  lg:text-xs lg:font-semibold ${
                                     item.url === pathname
                                         ? "z-2 lg:text-n-1"
                                         : "lg:text-n-1/50"
@@ -102,7 +104,7 @@ const Header = ({}: HeaderProps) => {
                         <div className="absolute top-[12.6rem] right-16 w-3 h-3 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full"></div>
                         <div className="absolute top-[26.8rem] left-12 w-6 h-6 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full"></div>
                     </div>
-                </nav>
+                </nav> */}
               
                 <Button
                     className="ml-auto lg:hidden"

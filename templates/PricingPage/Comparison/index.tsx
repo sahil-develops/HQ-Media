@@ -28,7 +28,7 @@ const Comparison = ({}: ComparisonProps) => {
 
     return (
         <Section>
-            <div className="container">
+            <div className="container lg:block hidden">
                 <Heading
                     className="md:text-center"
                     title="Compare plans & features"
@@ -47,6 +47,7 @@ const Comparison = ({}: ComparisonProps) => {
                                 <td className="p-4 text-center text-color-3">
                                     AI Consulting
                                 </td>
+                            
                             </tr>
                             {comparison.map((item) => (
                                 <tr className="body-2" key={item.id}>

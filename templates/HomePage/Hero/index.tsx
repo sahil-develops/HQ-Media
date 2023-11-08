@@ -28,7 +28,7 @@ const Hero = ({}: HeroProps) => {
             <div className="container relative" ref={parallaxRef}>
                 <div className="relative z-1 max-w-[62rem] mx-auto mb-[3.875rem] text-center md:mb-20 lg:mb-[6.25rem]">
                     <h1 className="h1 mb-6">
-                        Explore the Possibilities of&nbsp;AI&nbsp;Chatting with{" "}
+                    Innovate Your Business with AI-Powered Marketing and Web Solutions &nbsp;
                         <span className="inline-block relative">
                             HQ MEDIA
                             <Image
@@ -40,10 +40,10 @@ const Hero = ({}: HeroProps) => {
                             />
                         </span>
                     </h1>
-                    <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+                    {/* <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
                         Unleash the power of AI within HQ Media. Upgrade your
                         productivity with HQ Media's, the  AI chat bot.
-                    </p>
+                    </p> */}
                     <Button href="/pricing" white>
                         Get started
                     </Button>
@@ -84,8 +84,26 @@ const Hero = ({}: HeroProps) => {
                             <ScrollParallax isAbsolutelyPositioned>
                                 <Notification
                                     className="hidden absolute -right-[5.5rem] bottom-[11.25rem] w-[18.375rem] xl:flex"
-                                    title="AI Chatbot"
+                                    title="Automations"
+                                    image="/images/notification/image-1.png"
                                 />
+                                
+                            </ScrollParallax>
+                            <ScrollParallax isAbsolutelyPositioned>
+                                <Notification
+                                    className="hidden absolute -right-[8.5rem]  bottom-[20.25rem] w-[18.375rem] xl:flex"
+                                    title="AI Chatbot"
+                                    image="/images/notification/image-6.png"
+                                />
+                                
+                            </ScrollParallax>
+                            <ScrollParallax isAbsolutelyPositioned>
+                                <Notification
+                                    className="hidden absolute right-[55rem]  bottom-[14.25rem] w-[18.375rem] xl:flex"
+                                    title="Marketing"
+                                    image="/images/notification/image-5.png"
+                                />
+                                
                             </ScrollParallax>
                         </div>
                     </div>
