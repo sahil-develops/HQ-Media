@@ -30,7 +30,7 @@ const Pricing = ({}: PricingProps) => {
                 </div>
                 <Heading
                     tag="Get started with HQ Media"
-                    title="Pay once, use forever"
+                    title="Services we offer"
                 />
                 <div className="relative">
                     <PricingList />

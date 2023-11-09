@@ -10,12 +10,12 @@ export const benefits = [
     },
     {
         id: "1",
-        title: "Improve everyday",
-        text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+        title: "Real-time Support",
+        text: "Get instant assistance with real-time chatbot support, ensuring you're never alone in your digital journey.",
         backgroundUrl: "/images/benefits/card-2.svg",
         iconUrl: "/images/benefits/icon-2.svg",
         imageUrl: "/images/benefits/image-2.png",
-    },
+    },  
     {
         id: "2",
         title: "Connect everywhere",
@@ -35,8 +35,8 @@ export const benefits = [
     },
     {
         id: "4",
-        title: "Ask anything",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        title: "Enhance Productivity",
+        text: "Boost your team's efficiency with AI-powered solutions, streamlining tasks for increased productivity.",
         backgroundUrl: "/images/benefits/card-5.svg",
         iconUrl: "/images/benefits/icon-1.svg",
         imageUrl: "/images/benefits/image-2.png",
