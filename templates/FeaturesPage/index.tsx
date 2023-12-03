@@ -4,7 +4,7 @@ import Layout from "@/components/Layout";
 import Services from "@/components/Services";
 import Join from "@/components/Join";
 import Hero from "./Hero";
-import Benefits from "./Benefits";
+import Benefits from "./Benefits/Index";
 import Features from "./Features";
 import Community from "./Community";
 

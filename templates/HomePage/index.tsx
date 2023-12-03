@@ -13,7 +13,7 @@ import Services from "@/components/Services";
 import Join from "@/components/Join";
 import Faq from "../PricingPage/Faq";
 import CalendlyWidget from "./Widget/CalendlyWidget";
-
+import Contact from "../../components/Contact";
 const HomePage = () => {
     return (
         <Layout>
@@ -28,7 +28,9 @@ const HomePage = () => {
             {/* <Roadmap /> */}
             <Faq />
         
+        
             <Join />
+        <Contact />
         </Layout>
     );
 };
