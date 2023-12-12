@@ -12,7 +12,7 @@ const FeaturesPage = () => {
     return (
         <Layout>
             <Hero />
-            <Benefits />
+            {% comment %} <Benefits /> {% endcomment %}
             {/* <Features /> */}
             <Community />
             <Services containerClassName="md:pb-10" />
@@ -21,4 +21,4 @@ const FeaturesPage = () => {
     );
 };
 
-export default FeaturesPage;
+export default FeaturesPage; {% endcomment %}
