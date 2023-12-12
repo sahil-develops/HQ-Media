@@ -1,8 +1,8 @@
-import type { NextPage } from "next";
-import FeaturesPage from "@/templates/FeaturesPage";
+// import type { NextPage } from "next";
+// import FeaturesPage from "@/templates/FeaturesPage";
 
-const Home: NextPage = () => {
-    return <FeaturesPage />;
-};
+// const Home: NextPage = () => {
+//     return <FeaturesPage />;
+// };
 
-export default Home;
+// export default Home;
