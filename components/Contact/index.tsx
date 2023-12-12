@@ -6,20 +6,25 @@ const Index = () => {
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
     const [emailError, setEmailError] = useState('');
+    const [messageSent, setMessageSent] = useState(false);
+    const [isLoading, setIsLoading] = useState(false); // Add state for loading
 
     const validateEmail = (email: string) => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);
     };
 
-    const sendEmail = () => {
+    const sendEmail = (e: React.MouseEvent<HTMLButtonElement>) => {
+        e.preventDefault();
         if (!validateEmail(email)) {
             setEmailError('Please enter a valid email address');
             return;
         }
 
+        setIsLoading(true); // Set loading to true
+
         const templateParams = {
-            email: email,
+            email: email, 
             subject: subject,
             message: message,
         };
@@ -28,9 +33,15 @@ const Index = () => {
             .send('service_bulrj0m', 'template_4rfz1xw', templateParams, publicKey)
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
+                setMessageSent(true);
+                setEmail('');
+                setSubject('');
+                setMessage('');
+                setIsLoading(false); // Set loading to false
             })
             .catch(function (error) {
                 console.log('FAILED...', error);
+                setIsLoading(false); // Set loading to false
             });
     };
 
@@ -83,8 +94,9 @@ const Index = () => {
                             type="submit"
                             onClick={sendEmail}
                             className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-[#223486] sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                            disabled={messageSent || isLoading} // Disable button if message is sent or loading is true
                         >
-                            Send message
+                            {isLoading ? 'Loading...' : (messageSent ? 'Message Sent' : 'Send message')}
                         </button>
                     </form>
                 </div>

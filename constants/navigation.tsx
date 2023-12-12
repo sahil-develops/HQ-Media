@@ -1,9 +1,9 @@
 export const navigation = [
-    // {
-    //     id: "0",
-    //     title: "Features",
-    //     url: "/features",
-    // },
+    {
+        id: "0",
+        title: "Contact",
+        url: "/pricing",
+    },
     // {
     //     id: "1",
     //     title: "Pricing",

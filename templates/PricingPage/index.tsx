@@ -6,15 +6,12 @@ import Comparison from "./Comparison";
 import Community from "./Community";
 import Join from "@/components/Join";
 import Faq from "./Faq";
+import Contact from "@/components/Contact";
 
 const PricingPage = () => {
     return (
         <Layout>
-            <Pricing />
-            <Comparison />
-            <Community />
-            <Faq />
-            <Join />
+          <Contact/>
         </Layout>
     );
 };
