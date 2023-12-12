@@ -17,4 +17,4 @@ const FeaturesPage = () => {
     );
 };
 
-export default FeaturesPage; {% endcomment %}
+export default FeaturesPage; 
