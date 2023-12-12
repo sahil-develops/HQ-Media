@@ -1,4 +1,4 @@
-"use client";
+
 
 import Layout from "@/components/Layout";
 {% comment %} import Services from "@/components/Services"; {% endcomment %}
